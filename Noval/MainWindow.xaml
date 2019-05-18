@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="20">
+            <ComboBoxItem Content="File" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+
     </Grid>
 </Window>
