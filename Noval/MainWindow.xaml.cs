@@ -18,11 +18,22 @@ namespace Noval
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// version 1.0.0
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void FileExit(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
