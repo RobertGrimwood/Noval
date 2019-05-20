@@ -35,5 +35,15 @@ namespace Noval
         {
             Environment.Exit(0);
         }
+
+        private void ComboBoxItem_Selected_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBoxItem_Selected_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -5,12 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Noval"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Noval" Height="450" Width="800">
     <Grid>
-        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120">
+
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3">
+            <ComboBoxItem IsSelected="True" Content="File" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="Save Data" HorizontalAlignment="Center" Width="118"/>
             <ComboBoxItem Content="Load Data" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected"/>
             <ComboBoxItem Content="Exit" HorizontalAlignment="Left" Width="118" Selected="FileExit"/>
+            
+        </ComboBox>
+        
+        <ComboBox HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem IsSelected="True" Content="Data" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Company Stats" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_1"/>
+            <ComboBoxItem Content="Job Title Stats" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_1"/>
+            <ComboBoxItem Content="Location Stats" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Salary Stats" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Apply Date Stats" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Graphs" HorizontalAlignment="Left" Width="118"/>
+            
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.208,5" Margin="240,0,0,0">
+            <ComboBoxItem IsSelected="True" Content="Help" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Instructions" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_2"/>
         </ComboBox>
     </Grid>
 </Window> 
