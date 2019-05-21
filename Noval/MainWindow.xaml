@@ -30,5 +30,7 @@
             <ComboBoxItem IsSelected="True" Content="Help" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="Instructions" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_2"/>
         </ComboBox>
+        <Button Content="Create &#xD;&#xA;New Job&#xD;&#xA;" HorizontalAlignment="Left" Height="240" Margin="80,80,0,0" VerticalAlignment="Top" Width="300" FontSize="48"/>
+        <Button Content="View&#xD;&#xA;Previous&#xD;&#xA;Jobs" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="420,80,0,0" Height="240" FontSize="48"/>
     </Grid>
 </Window> 
