@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Noval"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="New Job" Height="450" Width="400">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="190,20,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="20" IsEnabled="False" RenderTransformOrigin="-0.75,0.5"/>
+        <Label Content="Job No." HorizontalAlignment="Left" Margin="182,0,0,0" VerticalAlignment="Top" Height="20" RenderTransformOrigin="-0.132,-0.333" FontSize="7"/>
+
     </Grid>
 </Window>
