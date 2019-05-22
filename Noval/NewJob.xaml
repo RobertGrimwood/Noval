@@ -5,10 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Noval"
         mc:Ignorable="d"
-        Title="New Job" Height="450" Width="400">
+        Title="Window1" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="190,20,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="20" IsEnabled="False" RenderTransformOrigin="-0.75,0.5"/>
-        <Label Content="Job No." HorizontalAlignment="Left" Margin="182,0,0,0" VerticalAlignment="Top" Height="20" RenderTransformOrigin="-0.132,-0.333" FontSize="7"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="380,30,0,0" TextWrapping="Wrap" Text='MainWindow.jobCount' VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.603,-1.2"/>
+        <Label Content="Job No." HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="360,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.263,5" Height="30" FontSize="14" Width="80" />
+        <Label Content="Company Name" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,50,0,0" Width="120" RenderTransformOrigin="-0.042,3.654" Height="30" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left"  Height="30" Margin="280,80,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="240"/>
+        <Label Content="Job Title" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,110,0,0" Height="30" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="240" Margin="280,140,0,0"/>
+        <Label Content="Job Location" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,170,0,0" Width="120" Height="30"/>
+        <TextBox HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="30" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="240" Margin="280,200,0,0"/>
+        <Label Content="Salary" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,230,0,0" Width="80" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="340,260,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Apply Date" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,290,0,0" Width="80" Height="30"/>
+        <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,320,0,0" Height="30
+                    "/>
+        <Label Content="Notes" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,350,0,0" Width="80" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="240" Margin="280,380,0,-1"/>
 
     </Grid>
 </Window>
