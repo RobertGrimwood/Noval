@@ -16,13 +16,14 @@
         <Label Content="Job Location" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,170,0,0" Width="120" Height="30"/>
         <TextBox HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="30" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="240" Margin="280,200,0,0"/>
         <Label Content="Salary" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,230,0,0" Width="80" Height="30"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="30" Margin="340,260,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Label Content="Apply Date" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,290,0,0" Width="80" Height="30"/>
         <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,320,0,0" Height="30
                     "/>
         <Label Content="Notes" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,350,0,0" Width="80" Height="30"/>
         <TextBox HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="240" Margin="280,380,0,-1"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="707,389,0,0" IsCancel="True"/>
+        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="627,389,0,0"/>
 
     </Grid>
 </Window>
