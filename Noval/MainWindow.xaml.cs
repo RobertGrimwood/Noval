@@ -31,6 +31,7 @@ namespace Noval
         public MainWindow()
         {
             InitializeComponent();
+            jobCount = 0;
         }
 
         private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
@@ -51,6 +52,18 @@ namespace Noval
         private void ComboBoxItem_Selected_2(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void CreateNewJob_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 win1 = new Window1();
+            win1.Show();
+        }
+
+        private void ViewPreviousJobs_Click(object sender, RoutedEventArgs e)
+        {
+            PreviousJobs pJobs = new PreviousJobs();
+            pJobs.Show();
         }
     }
 }
