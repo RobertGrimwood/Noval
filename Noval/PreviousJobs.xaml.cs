@@ -21,6 +21,7 @@ namespace Noval
     {
         public PreviousJobs()
         {
+            int yeet;
             InitializeComponent();
         }
     }
