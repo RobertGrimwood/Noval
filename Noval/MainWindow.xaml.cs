@@ -21,13 +21,14 @@ namespace Noval
     /// version 1.0.0
     public partial class MainWindow : Window
     {
-        static string[] jobTitle = new string[512];
-        static string[] companyName = new string[512];
-        static string[] jobLocation = new string[512];
-        static string[] salaryPay = new string[512];
-        static string[] notes = new string[512];
-        static string[] applyDate = new string[512];
-        static int jobCount;
+        public static string[] jobTitle = new string[512];
+        public static string[] companyName = new string[512];
+        public static string[] jobLocation = new string[512];
+        public static string[] salaryPay = new string[512];
+        public static string[] notes = new string[512];
+        public static string[] applyDate = new string[512];
+        public static int jobCount;
+        
         public MainWindow()
         {
             InitializeComponent();

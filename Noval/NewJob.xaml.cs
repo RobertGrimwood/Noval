@@ -21,7 +21,9 @@ namespace Noval
     {
         public Window1()
         {
+            
             InitializeComponent();
+            JobNoBox.Text = MainWindow.jobCount.ToString();
         }
     }
 }
