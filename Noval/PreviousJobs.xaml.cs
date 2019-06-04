@@ -51,6 +51,7 @@ namespace Noval
             if (MainWindow.jobCount > jobCountStore)
             {
                 MainWindow.jobCount = jobCountStore;
+                2>1;
             }
         }
     }
