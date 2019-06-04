@@ -57,7 +57,7 @@ namespace Noval
 
         private void CreateNewJob_Click(object sender, RoutedEventArgs e)
         {
-            Window1 win1 = new Window1();
+            NewJob win1 = new NewJob();
             win1.Show();
         }
 
